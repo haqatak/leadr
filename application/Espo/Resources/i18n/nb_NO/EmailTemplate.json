@@ -1,15 +1,29 @@
 {
   "fields": {
     "name": "Navn",
+    "status": "Status",
     "isHtml": "Er HTML",
     "body": "Brødtekst",
     "subject": "Emne",
     "attachments": "Vedlegg",
-    "oneOff": "Bruk en gang"
+    "oneOff": "Bruk en gang",
+    "category": "Category",
+    "insertField": "Placeholders"
   },
+  "links": {},
   "labels": {
     "Create EmailTemplate": "Ny epostmal",
+    "Info": "Info",
     "Available placeholders": "Tiljengelige Stedfortredere"
+  },
+  "options": {
+    "status": {
+      "Active": "Active",
+      "Inactive": "Inactive"
+    }
+  },
+  "messages": {
+    "infoText": "Available placeholders:\n\n{optOutUrl} &#8211; URL for an unsubscribe link;\n\n{optOutLink} &#8211; an unsubscribe link."
   },
   "tooltips": {
     "oneOff": "Velg denne hvis du kun skal bruke malen en gang, f.eks. til masseutsendt epost."
@@ -18,6 +32,10 @@
     "actual": "Reell"
   },
   "placeholderTexts": {
-    "currentYear": "Gjeldende År"
+    "today": "Today's date",
+    "now": "Current date & time",
+    "currentYear": "Gjeldende År",
+    "optOutUrl": "URL for an unsubscribe link",
+    "optOutLink": "an unsubscribe link"
   }
 }

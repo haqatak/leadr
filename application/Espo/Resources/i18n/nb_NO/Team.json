@@ -1,20 +1,28 @@
 {
-  "fields": {
-    "name": "Navn",
-    "roles": "Roller",
-    "positionList": "Posisjonliste"
-  },
-  "links": {
-    "users": "Brukere",
-    "notes": "Notater",
-    "roles": "Roller",
-    "inboundEmails": "Epostkontoer for grupper"
-  },
-  "tooltips": {
-    "roles": "Roller for tilgangskontroll. Brukere i denne gruppen får tilgangsnivå tilsvarende de valgte rollene.",
-    "positionList": "Tilgjengelige posisjoner i denne gruppen. F.eks. salgsperson, leder etc."
-  },
-  "labels": {
-    "Create Team": "Opprett gruppe"
-  }
+    "fields": {
+        "name": "Navn",
+        "roles": "Roller",
+        "layoutSet": "Oppsett",
+        "workingTimeCalendar": "Arbeidstidskalender",
+        "positionList": "Posisjonsliste",
+        "userRole": "Brukerrolle"
+    },
+    "links": {
+        "users": "Brukere",
+        "notes": "Notater",
+        "roles": "Roller",
+        "layoutSet": "Oppsett",
+        "workingTimeCalendar": "Arbeidstidskalender",
+        "inboundEmails": "Gruppe-e-postkontoer",
+        "groupEmailFolders": "Gruppe-e-postmapper"
+    },
+    "tooltips": {
+        "workingTimeCalendar": "En kalender vil bli brukt for brukere som har dette teamet satt som standardteam.",
+        "layoutSet": "Gir muligheten til å ha oppsett som skiller seg fra standardoppsettene. Oppsettet vil bli brukt for brukere som har dette teamet satt som standardteam.",
+        "roles": "Tilgangsroller. Brukere i dette teamet får tilgangskontrollnivå fra de valgte rollene.",
+        "positionList": "Tilgjengelige posisjoner i dette teamet. F.eks. Selger, Leder."
+    },
+    "labels": {
+        "Create Team": "Opprett team"
+    }
 }

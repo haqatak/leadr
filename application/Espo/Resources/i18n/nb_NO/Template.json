@@ -4,27 +4,50 @@
     "body": "Brødtekst",
     "entityType": "Enhetstype",
     "header": "Overskrift",
+    "footer": "Footer",
     "leftMargin": "Venstremarg",
     "topMargin": "Toppmarg",
     "rightMargin": "Høyremarg",
     "bottomMargin": "Bunnmarg",
     "printFooter": "Skriv ut footer",
+    "printHeader": "Print Header",
     "footerPosition": "Footer-posisjon",
+    "headerPosition": "Overskrift Posisjon",
     "variables": "Tiljengelige Stedfortredere",
-    "headerPosition": "Overskrift Posisjon"
+    "pageOrientation": "Page Orientation",
+    "pageFormat": "Paper Format",
+    "pageWidth": "Page Width (mm)",
+    "pageHeight": "Page Height (mm)",
+    "fontFace": "Font",
+    "title": "Title",
+    "style": "Style",
+    "status": "Status"
   },
+  "links": {},
   "labels": {
     "Create Template": "Opprett mal"
   },
-  "tooltips": {
-    "footer": "Bruk {pageNumber} for å skrive ut sidenummer"
-  },
   "options": {
+    "status": {
+      "Active": "Active",
+      "Inactive": "Inactive"
+    },
     "pageOrientation": {
-      "Portrait": "Portrett"
+      "Portrait": "Portrett",
+      "Landscape": "Landscape"
+    },
+    "pageFormat": {
+      "Custom": "Custom"
     },
     "placeholders": {
+      "pagebreak": "Page break",
+      "today": "Today (date)",
       "now": "Nå (dato-tid)"
-    }
+    },
+    "fontFace": {}
+  },
+  "tooltips": {
+    "footer": "Bruk {pageNumber} for å skrive ut sidenummer",
+    "variables": "Copy-paste needed placeholder to Header, Body or Footer."
   }
 }

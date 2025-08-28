@@ -1,5 +1,6 @@
 {
   "labels": {
+    "New import with same params": "New import with same params",
     "Revert Import": "Reversér import",
     "Return to Import": "Tilbake til import",
     "Run Import": "Kjør import",
@@ -50,32 +51,62 @@
     "Duplicates": "Duplikater",
     "Skip searching for duplicates": "Dropp å søke etter duplikater",
     "Timezone": "Tidssone",
-    "Remove Import Log": "Fjern importerings log"
+    "Remove Import Log": "Fjern importerings log",
+    "New Import": "New Import",
+    "Import Results": "Import Results",
+    "Run Manually": "Run Manually",
+    "Silent Mode": "Silent Mode",
+    "Export": "Export"
   },
   "messages": {
+    "importRunning": "Import running...",
+    "noErrors": "No errors",
     "utf8": "Bør være UTF-8-kodet",
     "duplicatesRemoved": "Duplikater fjernet",
-    "inIdle": "Kjør når kapasitet er ledig (for store mengder data, via cron)"
+    "inIdle": "Kjør når kapasitet er ledig (for store mengder data, via cron)",
+    "revert": "This will remove all imported records permanently.",
+    "removeDuplicates": "This will permanently remove all imported records that were recognized as duplicates.",
+    "confirmRevert": "This will remove all imported records permanently. Are you sure?",
+    "confirmRemoveDuplicates": "This will permanently remove all imported records that were recognized as duplicates. Are you sure?",
+    "confirmRemoveImportLog": "This will remove the import log. All imported records will be kept. You won't be able to revert import results. Are you sure?",
+    "removeImportLog": "This will remove the import log. All imported records will be kept. Use it if you are sure that import is fine."
+  },
+  "params": {
+    "phoneNumberCountry": "Telephone country code"
   },
   "fields": {
     "file": "Fil",
     "entityType": "Enhetstype",
     "imported": "Importerte oppføringer",
     "duplicates": "Duplikatoppføringer",
-    "updated": "Oppdaterte oppføringer"
+    "updated": "Oppdaterte oppføringer",
+    "status": "Status"
+  },
+  "links": {
+    "errors": "Errors"
   },
   "options": {
     "status": {
       "Failed": "Feilet",
+      "Standby": "Standby",
+      "Pending": "Venter",
       "In Process": "Behandles",
-      "Complete": "Komplett",
-      "Pending": "Venter"
+      "Complete": "Komplett"
     },
     "personNameFormat": {
       "f l": "Fornavn Etternavn",
       "l f": "Etternavn Fornavn",
       "f m l": "Fornavn Melomnavn Etternavn",
-      "l f m": "Etternavn Fornavn Mellomnavn"
+      "l f m": "Etternavn Fornavn Mellomnavn",
+      "l, f": "Last, First"
     }
+  },
+  "strings": {
+    "commandToRun": "Command to run (from CLI)",
+    "saveAsDefault": "Save as default"
+  },
+  "tooltips": {
+    "manualMode": "If checked, you will need to run import manually from CLI. Command will be shown after setting up the import.",
+    "silentMode": "A majority of after-save scripts will be skipped, stream notes won't be created. Import will run faster."
   }
 }

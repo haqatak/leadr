@@ -1,9 +1,14 @@
 {
   "fields": {
     "number": "Nummer",
-    "target": "Mål"
+    "data": "Data",
+    "target": "Mål",
+    "leadCapture": "Lead Capture",
+    "createdAt": "Entered At",
+    "isCreated": "Is Lead Created"
   },
   "links": {
+    "leadCapture": "Lead Capture",
     "target": "Mål"
   }
 }

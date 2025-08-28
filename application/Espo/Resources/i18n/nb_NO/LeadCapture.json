@@ -3,28 +3,63 @@
     "name": "Navn",
     "campaign": "Kampanje",
     "isActive": "Er Aktiv",
+    "subscribeToTargetList": "Subscribe to Target List",
+    "subscribeContactToTargetList": "Subscribe Contact if exists",
     "targetList": "Målgruppe",
+    "fieldList": "Payload Fields",
+    "optInConfirmation": "Double Opt-In",
     "optInConfirmationEmailTemplate": "Påmelding bekreftelse E-post mal",
+    "optInConfirmationLifetime": "Opt-in confirmation lifetime (hours)",
+    "optInConfirmationSuccessMessage": "Text to show after opt-in confirmation",
     "leadSource": "Ledetrådkilde",
     "apiKey": "API-nøkkel",
     "targetTeam": "Målgruppe",
     "exampleRequestMethod": "Metode",
-    "duplicateCheck": "Sjekk Duplikat",
+    "exampleRequestUrl": "URL",
+    "exampleRequestPayload": "Payload",
+    "exampleRequestHeaders": "Headers",
+    "createLeadBeforeOptInConfirmation": "Create Lead before confirmation",
+    "skipOptInConfirmationIfSubscribed": "Skip confirmation if lead is already in target list",
     "smtpAccount": "SMTP konto",
-    "inboundEmail": "Epostkonto for gruppe"
+    "inboundEmail": "Epostkonto for gruppe",
+    "duplicateCheck": "Sjekk Duplikat",
+    "phoneNumberCountry": "Telephone country code",
+    "fieldParams": "Field Params",
+    "formId": "Form ID",
+    "formEnabled": "Web Form",
+    "formUrl": "Form URL",
+    "formTitle": "Form Title",
+    "formTheme": "Form Theme",
+    "formSuccessText": "Text to display after form submission",
+    "formText": "Text to display on form",
+    "formSuccessRedirectUrl": "URL to redirect to after form submission",
+    "formLanguage": "Language used on form",
+    "formFrameAncestors": "Allowed hosts for form embedding",
+    "formCaptcha": "Use Captcha"
   },
   "links": {
     "targetList": "Målgruppe",
     "campaign": "Kampanje",
     "optInConfirmationEmailTemplate": "Påmelding bekreftelse E-post mal",
     "targetTeam": "Målgruppe",
-    "logRecords": "Logg",
-    "inboundEmail": "Epostkonto for gruppe"
+    "inboundEmail": "Epostkonto for gruppe",
+    "logRecords": "Logg"
   },
   "labels": {
-    "Generate New API Key": "Generer ny API-Nøkkel"
+    "Create LeadCapture": "Create Entry Point",
+    "Generate New API Key": "Generer ny API-Nøkkel",
+    "Request": "Request",
+    "Confirm Opt-In": "Confirm Opt-In",
+    "Generate New Form ID": "Generate New Form ID",
+    "Web Form": "Web Form"
+  },
+  "messages": {
+    "generateApiKey": "Create new API Key",
+    "optInConfirmationExpired": "Opt-in confirmation link is expired.",
+    "optInIsConfirmed": "Opt-in is confirmed."
   },
   "tooltips": {
+    "formCaptcha": "To be able to use Captcha, you need to configure it under **Administration** > **Integrations**.",
     "optInConfirmationSuccessMessage": "Markdown er støttet."
   }
 }

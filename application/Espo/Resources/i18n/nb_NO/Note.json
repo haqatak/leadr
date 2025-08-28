@@ -1,21 +1,25 @@
 {
   "fields": {
+    "post": "Post",
     "attachments": "Vedlegg",
     "targetType": "Mål",
     "teams": "Grupper",
     "users": "Brukere",
     "portals": "Portaler",
+    "type": "Type",
     "isGlobal": "Er global",
+    "isInternal": "Is Internal (for internal users)",
+    "isPinned": "Is Pinned",
     "related": "Relatert",
+    "createdByGender": "Created By Gender",
+    "data": "Data",
     "number": "Nummer"
   },
   "filters": {
     "all": "Alle",
     "posts": "Poster",
-    "updates": "Oppdateringer"
-  },
-  "messages": {
-    "writeMessage": "Skriv en melding her"
+    "updates": "Oppdateringer",
+    "activity": "Activity"
   },
   "options": {
     "targetType": {
@@ -24,9 +28,40 @@
       "teams": "til valgt(e) gruppe(r)",
       "all": "til alle interne brukere",
       "portals": "til portalbrukere"
+    },
+    "type": {
+      "Post": "Post",
+      "Create": "Create",
+      "CreateRelated": "Create Related",
+      "Update": "Update",
+      "Status": "Status",
+      "Assign": "Assign",
+      "Relate": "Relate",
+      "Unrelate": "Unrelate",
+      "EmailReceived": "Email Received",
+      "EmailSent": "Email Sent"
     }
   },
+  "labels": {
+    "View Posts": "View Posts",
+    "View Attachments": "View Attachments",
+    "View Activity": "View Activity",
+    "Pin": "Pin",
+    "Unpin": "Unpin",
+    "Pinned": "Pinned",
+    "Quote Reply": "Quote Reply"
+  },
+  "messages": {
+    "writeMessage": "Skriv en melding her",
+    "pinnedMaxCountExceeded": "Cannot pin more notes. Max allowed number is {count}."
+  },
   "links": {
+    "portals": "Portals",
+    "attachments": "Attachments",
+    "superParent": "Super Parent",
     "related": "Relatert"
+  },
+  "otherFields": {
+    "to": "To"
   }
 }

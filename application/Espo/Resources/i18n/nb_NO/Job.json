@@ -1,15 +1,24 @@
 {
   "fields": {
+    "status": "Status",
     "executeTime": "Utfør på",
+    "executedAt": "Executed At",
+    "startedAt": "Started At",
     "attempts": "Forsøk igjen",
     "failedAttempts": "Mislykkede forsøk",
     "serviceName": "Tjeneste",
+    "method": "Metode (Ikke i bruk)",
     "methodName": "Metode",
     "scheduledJob": "Planlagte oppgaver",
-    "method": "Metode (Ikke i bruk)",
+    "scheduledJobJob": "Scheduled Job Name",
+    "data": "Data",
     "targetType": "Måltype",
+    "targetId": "Target ID",
     "number": "Nummer",
     "queue": "Kø",
+    "group": "Group",
+    "className": "Class Name",
+    "targetGroup": "Target Group",
     "job": "Oppgave"
   },
   "options": {

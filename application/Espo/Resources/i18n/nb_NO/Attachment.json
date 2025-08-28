@@ -1,18 +1,29 @@
 {
-  "insertFromSourceLabels": {
-    "Document": "Sett inn dokument"
-  },
   "fields": {
     "role": "Rolle",
     "related": "Relatert",
     "file": "Fil",
-    "field": "Felt"
+    "type": "Type",
+    "field": "Felt",
+    "sourceId": "Source ID",
+    "storage": "Storage",
+    "size": "Size (bytes)",
+    "isBeingUploaded": "Is Being Uploaded"
   },
   "options": {
     "role": {
       "Attachment": "Vedlegg",
+      "Inline Attachment": "Inline Attachment",
+      "Import File": "Import File",
       "Export File": "Eksporter Fil",
-      "Mail Merge": "E-post Sammenfletting"
+      "Mail Merge": "E-post Sammenfletting",
+      "Mass Pdf": "Mass Pdf"
     }
+  },
+  "insertFromSourceLabels": {
+    "Document": "Sett inn dokument"
+  },
+  "presetFilters": {
+    "orphan": "Orphan"
   }
 }

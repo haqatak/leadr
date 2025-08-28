@@ -2,21 +2,38 @@
   "fields": {
     "username": "Brukernavn",
     "ipAddress": "IP-adresse",
+    "requestTime": "Request Time",
+    "createdAt": "Requested At",
+    "isDenied": "Is Denied",
+    "denialReason": "Denial Reason",
+    "portal": "Portal",
     "user": "Bruker",
     "authToken": "Autentisering Nøkkel Opprettet",
+    "requestUrl": "Request URL",
+    "requestMethod": "Request Method",
+    "authTokenIsActive": "Auth Token is Active",
     "authenticationMethod": "Autentiseringsmetode"
   },
   "links": {
     "authToken": "Autentisering Nøkkel Opprettet",
     "user": "Bruker",
+    "portal": "Portal",
     "actionHistoryRecords": "Behandlingshistorikk"
   },
   "presetFilters": {
+    "denied": "Denied",
     "accepted": "Akseptert"
   },
   "options": {
     "denialReason": {
-      "IS_PORTAL_USER": "Portalbruker"
+      "CREDENTIALS": "Invalid credentials",
+      "WRONG_CODE": "Wrong code",
+      "INACTIVE_USER": "Inactive user",
+      "IS_PORTAL_USER": "Portalbruker",
+      "IS_NOT_PORTAL_USER": "Not a portal user",
+      "USER_IS_NOT_IN_PORTAL": "User is not related to the portal",
+      "IS_SYSTEM_USER": "Is system user",
+      "FORBIDDEN": "Forbidden"
     }
   }
 }

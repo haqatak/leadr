@@ -15,7 +15,12 @@
     "sortBy": "Rekkefølge (Felt)",
     "sortDirection": "Rekkefølge (Retning)",
     "expandedLayout": "Oppsett",
-    "dateFilter": "Dato Filter"
+    "skipOwn": "Don't show own records",
+    "url": "URL",
+    "dateFilter": "Dato Filter",
+    "text": "Text",
+    "folder": "Folder",
+    "includeShared": "Include Shared"
   },
   "options": {
     "mode": {
@@ -25,6 +30,20 @@
       "basicDay": "Dag",
       "agendaDay": "Dag (agenda)",
       "timeline": "Tidslinje"
+    },
+    "sortDirection": {
+      "asc": "Ascending",
+      "desc": "Descending"
     }
+  },
+  "messages": {
+    "selectEntityType": "Select Entity Type in dashlet options."
+  },
+  "tooltips": {
+    "skipOwn": "Actions made by your user account won't be displayed."
+  },
+  "otherFields": {
+    "soft": "Soft Color",
+    "small": "Small Font"
   }
 }

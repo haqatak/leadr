@@ -4,25 +4,37 @@
     "to": "Til",
     "subject": "Emne",
     "bodyContains": "Brødtekst inneholder",
+    "bodyContainsAll": "Body Contains All",
     "action": "Handling",
     "isGlobal": "Er global",
-    "emailFolder": "Mappe"
+    "emailFolder": "Mappe",
+    "groupEmailFolder": "Group Email Folder",
+    "markAsRead": "Mark as Read",
+    "skipNotification": "Skip Notification"
+  },
+  "links": {
+    "emailFolder": "Folder",
+    "groupEmailFolder": "Group Email Folder"
   },
   "labels": {
     "Create EmailFilter": "Nytt epostfilter",
     "Emails": "Eposter"
   },
-  "tooltips": {
-    "from": "Eposter sendt fra den angitte adressen. Kan stå tom. Du kan bruke jokertegn * (stjerne).",
-    "to": "Eposter sendt til den angitte adressen. Kan stå tom. Du kan bruke jokertegn * (stjerne).",
-    "name": "Gi filteret et beskrivende navn.",
-    "bodyContains": "Epostens brødtekst inneholder en eller flere av de spesifiserte ordene eller frasene.",
-    "isGlobal": "Bruker dette filteret for alle eposter som kommer inn til applikasjonen."
-  },
   "options": {
     "action": {
+      "None": "None",
       "Skip": "Ignorer",
-      "Move to Folder": "Legg til i mappe"
+      "Move to Folder": "Legg til i mappe",
+      "Move to Group Folder": "Put in Group Folder"
     }
+  },
+  "tooltips": {
+    "name": "Gi filteret et beskrivende navn.",
+    "subject": "Use a wildcard *: \n\n * `text*` – starts with text,\n * `*text*` – contains text,\n * `*text` – ends with text.",
+    "bodyContains": "Epostens brødtekst inneholder en eller flere av de spesifiserte ordene eller frasene.",
+    "bodyContainsAll": "An email body contains all specified words or phrases.",
+    "from": "Eposter sendt fra den angitte adressen. Kan stå tom. Du kan bruke jokertegn * (stjerne).",
+    "to": "Eposter sendt til den angitte adressen. Kan stå tom. Du kan bruke jokertegn * (stjerne).",
+    "isGlobal": "Bruker dette filteret for alle eposter som kommer inn til applikasjonen."
   }
 }
