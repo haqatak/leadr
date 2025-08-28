@@ -4,24 +4,43 @@
     "roles": "Roller",
     "assignmentPermission": "Tildelingsrettigheter",
     "userPermission": "Brukerrettigheter",
+    "messagePermission": "Message Permission",
     "portalPermission": "Portalrettigheter",
+    "groupEmailAccountPermission": "Group Email Account Permission",
     "exportPermission": "Eksporter Tillatelser",
-    "massUpdatePermission": "Endre utvalgte Tillatelse"
+    "massUpdatePermission": "Endre utvalgte Tillatelse",
+    "followerManagementPermission": "Follower Management Permission",
+    "dataPrivacyPermission": "Data Privacy Permission",
+    "auditPermission": "Audit Permission",
+    "mentionPermission": "Mention Permission",
+    "userCalendarPermission": "User Calendar Permission",
+    "data": "Data",
+    "fieldData": "Field Data"
   },
   "links": {
     "users": "Brukere",
     "teams": "Grupper"
   },
   "tooltips": {
+    "messagePermission": "Allows to send messages to other users.\n\n* all – can send to all\n* team – can send only to teammates\n* no – cannot send",
     "assignmentPermission": "Gjør det mulig å begrense tildeling av oppføringer og å poste meldinger til andre brukere.\n\nAlle – ingen restriksjoner\n\nGruppe – kan tildele og poste til medlemmer av gruppen\n\nIngen – kan kun tildele og poste til seg selv",
     "userPermission": "Gjør det mulig å avgrense om brukere skal kunne se aktiviteter, kalenderen og strømmen til andre brukere.\n\nAlle – kan se alt\n\nGruppe – viser kun informasjon fra deltagere i gruppen\n\nIngen – får ikke se noe",
-    "portalPermission": "Definerer tilgangen til portalinformasjon, muligheten til å poste meldinger og til å konvertere kontakter til portalbrukere."
+    "userCalendarPermission": "Allows to view calendars of other users.",
+    "portalPermission": "Definerer tilgangen til portalinformasjon, muligheten til å poste meldinger og til å konvertere kontakter til portalbrukere.",
+    "groupEmailAccountPermission": "Access to group email accounts, the ability to send emails from group SMTP.",
+    "exportPermission": "Allows to export records.",
+    "massUpdatePermission": "The ability to perform mass update of records.",
+    "followerManagementPermission": "Allows to manage followers of specific records.",
+    "dataPrivacyPermission": "Allows to view and erase personal data.",
+    "auditPermission": "Allows to view the audit log.",
+    "mentionPermission": "Allows to mention other users in the Stream.\n\n* all – can mention all\n* team – can mention only teammates\n* no – cannot mention"
   },
   "labels": {
     "Access": "Tilgang",
     "Create Role": "Opprett rolle",
     "Scope Level": "Omfangsnivå",
-    "Field Level": "Feltnivå"
+    "Field Level": "Feltnivå",
+    "Baseline": "Baseline"
   },
   "options": {
     "accessList": {

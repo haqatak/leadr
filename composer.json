@@ -1,6 +1,6 @@
 {
-    "name": "espocrm/espocrm",
-    "description": "EspoCRM. Open source CRM application.",
+    "name": "leadr/leadr",
+    "description": "Leadr. Open source CRM application.",
     "type": "project",
     "homepage": "https://github.com/espocrm/espocrm.git",
     "license": "AGPL-3.0-or-later",

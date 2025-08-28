@@ -1,6 +1,11 @@
 {
   "fields": {
+    "type": "Type",
     "optOut": "Avmeldt",
-    "invalid": "Ugyldig"
+    "invalid": "Ugyldig",
+    "numeric": "Numeric Value"
+  },
+  "presetFilters": {
+    "orphan": "Orphan"
   }
 }

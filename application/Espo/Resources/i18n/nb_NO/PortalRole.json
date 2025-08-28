@@ -1,4 +1,10 @@
 {
+  "fields": {
+    "exportPermission": "Eksporter Tillatelser",
+    "massUpdatePermission": "Endre utvalgte Tillatelse",
+    "data": "Data",
+    "fieldData": "Field Data"
+  },
   "links": {
     "users": "Brukere"
   },
@@ -7,9 +13,5 @@
     "Create PortalRole": "Opprett portalrolle",
     "Scope Level": "Omfangsnivå",
     "Field Level": "Feltnivå"
-  },
-  "fields": {
-    "exportPermission": "Eksporter Tillatelser",
-    "massUpdatePermission": "Endre utvalgte Tillatelse"
   }
 }

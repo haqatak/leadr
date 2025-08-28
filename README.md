@@ -1,8 +1,8 @@
-## EspoCRM
+## leadr
 
 [![PHPStan level 8](https://img.shields.io/badge/PHPStan-level%208-brightgreen)](#espocrm)
 
-[EspoCRM](https://www.espocrm.com) is a free, open-source CRM platform designed to help organizations build and maintain strong customer relationships.
+[leadr](https://www.espocrm.com) is a free, open-source CRM platform designed to help organizations build and maintain strong customer relationships.
 It provides a wide range of tools to store, organize, and manage leads, contacts, sales opportunities, marketing campaigns,
 support cases, and more – all business information in a simple and intuitive interface.
 
@@ -10,7 +10,7 @@ support cases, and more – all business information in a simple and intuitive i
 
 ### Architecture
 
-EspoCRM is a web application with a frontend designed as a single-page application and a REST API
+leadr is a web application with a frontend designed as a single-page application and a REST API
 backend written in PHP.
 
 ### Demo
@@ -25,14 +25,14 @@ You can try the CRM on an online [demo](https://www.espocrm.com/demo/).
 
 For more information about server configuration, see [this article](https://docs.espocrm.com/administration/server-configuration/).
 
-### Why EspoCRM?
+### Why leadr?
 
-* Open-source transparency. EspoCRM's source code is open and accessible, so anyone can inspect it and see how data is being managed within the CRM.
-* Customization freedom. You can develop features, create custom entities, fields, relationships, buttons to make the system fit your specific needs. EspoCRM is more than a CRM – it's a platform for building custom business applications.
-* Clean user interface. EspoCRM offers an uncluttered, minimalist, and fast user interface, which is easy to navigate and has a short learning curve.
+* Open-source transparency. leadr's source code is open and accessible, so anyone can inspect it and see how data is being managed within the CRM.
+* Customization freedom. You can develop features, create custom entities, fields, relationships, buttons to make the system fit your specific needs. leadr is more than a CRM – it's a platform for building custom business applications.
+* Clean user interface. leadr offers an uncluttered, minimalist, and fast user interface, which is easy to navigate and has a short learning curve.
 * Straightforward REST API. It can be easily integrated with other applications using a REST API.
 
-### Who is EspoCRM for?
+### Who is leadr for?
 
 * Startups, small & medium-sized businesses. It's an affordable solution that is flexible and fully customizable.
 * Developers & tech enthusiasts. You can extend functionalities, build extensions, and create custom integrations.
@@ -67,17 +67,17 @@ Create a [GitHub issue](https://github.com/espocrm/espocrm/issues/new/choose) or
 
 See the [developer documentation](https://docs.espocrm.com/development/).
 
-We highly recommend using an IDE for development. The backend codebase follows SOLID principles, utilizes interfaces, static typing and generics. We recommend to start learning EspoCRM from the Dependency Injection article in the documentation.
+We highly recommend using an IDE for development. The backend codebase follows SOLID principles, utilizes interfaces, static typing and generics. We recommend to start learning leadr from the Dependency Injection article in the documentation.
 
-Metadata plays an integral role in the EspoCRM application. All possible parameters are described with a JSON Schema, meaning you will have autocompletion in the IDE. You can also find the full metadata reference in the documentation.
+Metadata plays an integral role in the leadr application. All possible parameters are described with a JSON Schema, meaning you will have autocompletion in the IDE. You can also find the full metadata reference in the documentation.
 
 ### Community & Support
 
-If you have a question regarding some features, need help or customizations, want to get in touch with other EspoCRM users, or add a feature request, please use our [community forum](https://forum.espocrm.com/). We believe that using the forum to ask for help and share experience allows everyone in the community to contribute and use this knowledge later.
+If you have a question regarding some features, need help or customizations, want to get in touch with other leadr users, or add a feature request, please use our [community forum](https://forum.espocrm.com/). We believe that using the forum to ask for help and share experience allows everyone in the community to contribute and use this knowledge later.
 
 ### License
 
-EspoCRM is an open-source project licensed under [GNU AGPLv3](https://raw.githubusercontent.com/espocrm/espocrm/master/LICENSE.txt).
+leadr is an open-source project licensed under [GNU AGPLv3](https://raw.githubusercontent.com/espocrm/espocrm/master/LICENSE.txt).
 
 ### Contributing
 

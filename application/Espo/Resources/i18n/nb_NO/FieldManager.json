@@ -2,7 +2,9 @@
   "labels": {
     "Dynamic Logic": "Dynamisk logikk",
     "Name": "Navn",
-    "Label": "Merkelapp"
+    "Label": "Merkelapp",
+    "Type": "Type",
+    "View Details": "View Details"
   },
   "options": {
     "dateTimeDefault": {
@@ -61,10 +63,28 @@
       "javascript: return this.dateTime.getDateShiftedFromToday(1, 'year');": "+1 år"
     },
     "barcodeType": {
+      "EAN13": "EAN-13",
+      "EAN8": "EAN-8",
+      "EAN5": "EAN-5",
+      "EAN2": "EAN-2",
+      "UPC": "UPC (A)",
+      "UPCE": "UPC (E)",
+      "pharmacode": "Pharmacode",
       "QRcode": "QR kode"
+    },
+    "globalRestrictions": {
+      "forbidden": "Forbidden",
+      "internal": "Internal",
+      "onlyAdmin": "Admin-only",
+      "readOnly": "Read-only",
+      "nonAdminReadOnly": "Non-admin read-only"
     }
   },
   "tooltips": {
+    "optionsReference": "Re-use options from another field.",
+    "currencyDecimal": "Use the Decimal DB type. In the app, values will be represented as strings. Check this parameter if precision is required.",
+    "cutHeight": "A text higher then a specified value will be cut with a 'show more' button displayed.",
+    "urlStrip": "Strip a protocol and a trailing slash.",
     "audited": "Endringer vil bli logget i strømmen.",
     "required": "Felt vil bli påkrevd. Kan ikke være tom.",
     "default": "Verdi vil angis som forvalg ved ny oppføring.",
@@ -76,7 +96,21 @@
     "before": "Datoverdien må være tidligere en datoverdien spesifisert i feltet.",
     "after": "Datoverdien må være senere enn datoverdien spesifisert i feltet.",
     "readOnly": "Feltets verdi kan ikke endres av brukeren, kan kun vise resultat fra formel.",
-    "fileAccept": "Hvilke filtyper skal aksepteres. Det er mulig å legge til egne typer."
+    "readOnlyAfterCreate": "The field value can be specified when creating a new record. After that, the field becomes read-only. It can still be calculated by formula.",
+    "preview": "Show the preview button. Applicable if Markdown is enabled.",
+    "fileAccept": "Hvilke filtyper skal aksepteres. Det er mulig å legge til egne typer.",
+    "barcodeLastChar": "For EAN-13 type.",
+    "maxFileSize": "If empty or 0 then no limit.",
+    "conversionDisabled": "The currency conversion action won't be applied to this field.",
+    "pattern": "A regular expression to check a field value against. Define an expression or select a predefined one.",
+    "options": "A list of possible values and their labels.",
+    "itemsEditable": "Items can be edited. Applicable only if no options are specified.",
+    "optionsArray": "A list of possible values and their labels. If empty, the field will allow entering custom values.",
+    "maxCount": "Maximum number of items allowed to be selected.",
+    "displayAsList": "Each item in a new line.",
+    "optionsVarchar": "A list of autocomplete values.",
+    "linkReadOnly": "Field value can't be specified by user. But can be calculated by formula.\n\nIt will also disable the ability to create a related record from relationship panels.",
+    "relateOnImport": "When importing with this field, it will automatically relate a record with a matching foreign record. Use this functionality only if the foreign field is considered as unique."
   },
   "fieldParts": {
     "address": {
@@ -88,13 +122,58 @@
       "map": "Kart"
     },
     "personName": {
-      "salutation": "Titulering"
+      "salutation": "Titulering",
+      "first": "First",
+      "middle": "Middle",
+      "last": "Last"
+    },
+    "currency": {
+      "converted": "(Converted)",
+      "currency": "(Currency)"
     },
     "datetimeOptional": {
       "date": "Dato"
     }
   },
   "fieldInfo": {
-    "date": "Dato uten Tid"
+    "varchar": "A single-line text.",
+    "enum": "Selectbox, only one value can be selected.",
+    "text": "A multiline text with markdown support.",
+    "date": "Dato uten Tid",
+    "datetime": "Date and time",
+    "currency": "A currency value. A float number with a currency code.",
+    "int": "A whole number.",
+    "float": "A number with a decimal part.",
+    "bool": "A checkbox. Two possible values: true and false.",
+    "multiEnum": "A list of values, multiple values can be selected. The list is ordered.",
+    "checklist": "A list of checkboxes.",
+    "array": "A list of values, similar to Multi-Enum field.",
+    "address": "An address with street, city, state, postal code and country.",
+    "url": "For storing links.",
+    "urlMultiple": "Multiple links.",
+    "wysiwyg": "A text with HTML support.",
+    "file": "For file uploading.",
+    "image": "For image uploading.",
+    "attachmentMultiple": "Allows to upload multiple files.",
+    "number": "An auto-incrementing number of string type with a possible prefix and specific length.",
+    "autoincrement": "A generated read-only auto-incrementing integer number.",
+    "barcode": "A barcode. Can be printed to PDF.",
+    "email": "A set of email addresses with their parameters: Opted-out, Invalid, Primary.",
+    "phone": "A set of phone numbers with their parameters: Type, Opted-out, Invalid, Primary.",
+    "foreign": "A field of a related record. Read-only.",
+    "link": "A record related through Belongs-To (many-to-one or one-to-one) relationship.",
+    "linkParent": "A record related through Belongs-To-Parent relationship. Can be of different entity types.",
+    "linkMultiple": "A set of records related through Has-Many (many-to-many or one-to-many) relationship. Not all relationships have their link-multiple fields. Only those do, where Link-Multiple parameter(s) is enabled."
+  },
+  "messages": {
+    "fieldCreatedAddToLayouts": "Field has been created. Now, you can add it to [layouts]({link})",
+    "confirmRemove": "Are you sure you want to remove the *{field}* field?\n\nField removal does not remove data from the database. Data from the database will be removed if you run hard rebuild.",
+    "fieldNameIsNotAllowed": "Field name '{field}' is not allowed.",
+    "fieldAlreadyExists": "Field '{field}' already exists in '{entityType}'.",
+    "linkWithSameNameAlreadyExists": "Link with the name '{field}' already exists in '{entityType}'.",
+    "namingFieldLinkConflict": "Name '{field}' conflicts with link."
+  },
+  "otherFields": {
+    "attributes": "Attributes"
   }
 }

@@ -4,7 +4,8 @@
     "ipAddress": "IP-adresse",
     "lastAccess": "Forrige pålogging",
     "createdAt": "Påloggingsdato",
-    "isActive": "Er Aktiv"
+    "isActive": "Er Aktiv",
+    "portal": "Portal"
   },
   "links": {
     "actionHistoryRecords": "Behandlingshistorikk"
@@ -15,5 +16,8 @@
   },
   "labels": {
     "Set Inactive": "Set Inaktiv"
+  },
+  "massActions": {
+    "setInactive": "Set Inactive"
   }
 }

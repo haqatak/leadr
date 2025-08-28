@@ -6,6 +6,10 @@
   },
   "fields": {
     "optOut": "Avmeldt",
-    "invalid": "Ugyldig"
+    "invalid": "Ugyldig",
+    "lower": "Lower-case Name"
+  },
+  "presetFilters": {
+    "orphan": "Orphan"
   }
 }

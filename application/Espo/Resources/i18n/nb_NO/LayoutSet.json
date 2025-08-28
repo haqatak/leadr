@@ -3,6 +3,8 @@
     "layoutList": "Oppsett"
   },
   "labels": {
+    "Create LayoutSet": "Create Layout Set",
     "Edit Layouts": "Rediger Oppsett"
-  }
+  },
+  "tooltips": {}
 }

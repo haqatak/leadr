@@ -1,11 +1,15 @@
 {
   "fields": {
     "name": "Navn",
+    "logo": "Logo",
+    "url": "URL",
     "portalRoles": "Roller",
     "isActive": "Er Aktiv",
     "isDefault": "Er forvalg",
     "tabList": "Liste over dashlet-samlinger",
+    "applicationName": "Application Name",
     "quickCreateList": "Opprett liste raskt",
+    "companyLogo": "Logo",
     "theme": "Stiltema",
     "language": "Språk",
     "dashboardLayout": "Kontrollpanel Utforming",
@@ -14,15 +18,22 @@
     "timeZone": "Tidssone",
     "weekStart": "Første dag i uken",
     "defaultCurrency": "Forvalgt valuta",
+    "layoutSet": "Layout Set",
+    "authenticationProvider": "Authentication Provider",
     "customUrl": "Egendefinert URL",
-    "customId": "Egendefinert ID"
+    "customId": "Egendefinert ID",
+    "authTokenLifetime": "Auth Token Lifetime (hours)",
+    "authTokenMaxIdleTime": "Auth Token Max Idle Time (hours)"
   },
   "links": {
     "users": "Brukere",
     "portalRoles": "Roller",
+    "layoutSet": "Layout Set",
+    "authenticationProvider": "Authentication Provider",
     "notes": "Notater"
   },
   "tooltips": {
+    "layoutSet": "Provides the ability to have layouts that differ from standard ones.",
     "portalRoles": "Spesifiserte portalroller vil gjelde for alle brukere i denne portalen."
   },
   "labels": {

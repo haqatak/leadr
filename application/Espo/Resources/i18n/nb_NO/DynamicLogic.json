@@ -1,4 +1,7 @@
 {
+  "labels": {
+    "Field": "Felt"
+  },
   "options": {
     "operators": {
       "equals": "Er lik",
@@ -17,12 +20,12 @@
       "isEmpty": "Er tom",
       "isNotEmpty": "Er ikke tom",
       "contains": "Inneholder",
-      "has": "Inneholder",
       "notContains": "Inneholder ikke",
-      "notHas": "Inneholder ikke"
+      "has": "Inneholder",
+      "notHas": "Inneholder ikke",
+      "startsWith": "Starts With",
+      "endsWith": "Ends With",
+      "matches": "Matches (reg exp)"
     }
-  },
-  "labels": {
-    "Field": "Felt"
   }
 }

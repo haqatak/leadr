@@ -2,12 +2,16 @@
   "fields": {
     "name": "Navn",
     "emailAddress": "Epostadresse",
+    "team": "Målgruppe",
+    "status": "Status",
     "assignToUser": "Tildel til bruker",
     "host": "Tjener",
     "username": "Brukernavn",
     "password": "Passord",
+    "port": "Port",
     "monitoredFolders": "Overvåkede mapper",
     "trashFolder": "Søppelkurv-mappe",
+    "security": "Sikkerhet",
     "createCase": "Opprett sak",
     "reply": "Automatisk svar",
     "caseDistribution": "Distribusjon av sak",
@@ -18,24 +22,30 @@
     "targetUserPosition": "Målbrukerens posisjon",
     "fetchSince": "Hent fra dato",
     "addAllTeamUsers": "For alle gruppens brukere",
-    "team": "Målgruppe",
     "teams": "Grupper",
     "sentFolder": "Sendt-mappe",
     "storeSentEmails": "Lager sendte eposter",
+    "keepFetchedEmailsUnread": "Vis hentede eposter som ulest",
+    "connectedAt": "Connected At",
+    "excludeFromReply": "Exclude from Reply",
+    "useImap": "Hent E-post",
     "useSmtp": "Bruk SMTP",
     "smtpHost": "SMTP-tjener",
     "smtpPort": "SMTP-tjener",
     "smtpAuth": "SMTP-autentisering",
     "smtpSecurity": "SMTP-sikkerhet",
+    "smtpAuthMechanism": "SMTP-Autentisering Metode",
     "smtpUsername": "SMTP-brukernavn",
     "smtpPassword": "SMTP-passord",
     "fromName": "Fra-navn",
-    "useImap": "Hent E-post",
-    "keepFetchedEmailsUnread": "Vis hentede eposter som ulest",
-    "smtpAuthMechanism": "SMTP-Autentisering Metode",
-    "security": "Sikkerhet"
+    "smtpIsShared": "SMTP Is Shared",
+    "smtpIsForMassEmail": "SMTP Is for Mass Email",
+    "groupEmailFolder": "Group Email Folder",
+    "isSystem": "Is System"
   },
   "tooltips": {
+    "isSystem": "Is the system email account.",
+    "useSmtp": "Muligheten for å sende E-post",
     "reply": "Varsle senderen når eposten er mottatt.\n\nFor å unngå 'looping' vil det kun sendes <em>en</em> epost til mottageren innen en gitt tidsperiode.",
     "createCase": "Opprett sak automatisk for inngående eposter.",
     "replyToAddress": "Spesifiser epostadressen til denne postkassen for at svar skal bli sendt hit.",
@@ -43,13 +53,20 @@
     "assignToUser": "Brukere som sakene tildeles til.",
     "team": "Gruppes som sakene tildeles til.",
     "teams": "Grupper som eposter tildeles til.",
+    "targetUserPosition": "Users with specified position will be distributed with cases.",
     "addAllTeamUsers": "Eposter vil vises i innboksen til alle brukere i de valgte gruppene.",
-    "useSmtp": "Muligheten for å sende E-post"
+    "monitoredFolders": "Multiple folders should be separated by comma.",
+    "smtpIsShared": "If checked then users will be able to send emails using this SMTP. Availability is controlled by Roles through the Group Email Account permission.",
+    "smtpIsForMassEmail": "If checked then SMTP will be available for Mass Email.",
+    "storeSentEmails": "Sent emails will be stored on the IMAP server.",
+    "groupEmailFolder": "Put incoming emails in a group folder.",
+    "excludeFromReply": "When replying on emails sent to this account's email address, its email address won't be added to CC.\n\nNote that by enabling this parameter, the email address of this account will be exposed to users who have access to send Emails."
   },
   "links": {
     "filters": "Filtre",
     "emails": "Eposter",
-    "assignToUser": "Tildel til bruker"
+    "assignToUser": "Tildel til bruker",
+    "groupEmailFolder": "Group Email Folder"
   },
   "options": {
     "status": {
@@ -59,11 +76,21 @@
     "caseDistribution": {
       "": "Ingen",
       "Direct-Assignment": "Direktetildeling",
+      "Round-Robin": "Round-Robin",
       "Least-Busy": "Minst opptatte"
     },
     "smtpAuthMechanism": {
       "plain": "Klartekst",
-      "login": "Logg inn"
+      "login": "Logg inn",
+      "crammd5": "CRAM-MD5"
+    },
+    "smtpSecurity": {
+      "SSL": "SSL/TLS",
+      "TLS": "STARTTLS"
+    },
+    "security": {
+      "SSL": "SSL/TLS",
+      "TLS": "STARTTLS"
     }
   },
   "labels": {
@@ -73,6 +100,7 @@
     "Main": "Hovedinnstillinger"
   },
   "messages": {
-    "couldNotConnectToImap": "Kunne ikke koble til IMAP-tjeneren"
+    "couldNotConnectToImap": "Kunne ikke koble til IMAP-tjeneren",
+    "imapNotConnected": "Could not connect to group [IMAP account](#InboundEmail/view/{id})."
   }
 }

@@ -9,6 +9,35 @@
     "defaultCurrency": "Forvalgt valuta",
     "currencyList": "Valutaliste",
     "language": "Språk",
+    "exportDelimiter": "Skilletegn for eksport",
+    "receiveAssignmentEmailNotifications": "Epostvarsel når du blir tildelt noe",
+    "receiveMentionEmailNotifications": "Epostvarsel når du nevnes i poster",
+    "receiveStreamEmailNotifications": "Epostvarsel om post- og statusoppdateringer",
+    "assignmentNotificationsIgnoreEntityTypeList": "In-app assignment notifications",
+    "assignmentEmailNotificationsIgnoreEntityTypeList": "Email assignment notifications",
+    "reactionNotifications": "In-app notifications about reactions",
+    "autoFollowEntityTypeList": "Følg automatisk",
+    "signature": "Epostsignatur",
+    "dashboardTabList": "Menyliste",
+    "defaultReminders": "Forvalgte påminnelser",
+    "defaultRemindersTask": "Default Reminders for Tasks",
+    "theme": "Stiltema",
+    "pageContentWidth": "Content Width",
+    "useCustomTabList": "Egendefinert menyliste",
+    "addCustomTabs": "Add Custom Tabs",
+    "tabList": "Menyliste",
+    "emailReplyToAllByDefault": "Epostsvar sendes til alle som forvalg",
+    "dashboardLayout": "Kontrollpanel Utforming",
+    "dashboardLocked": "Lock Dashboard",
+    "emailReplyForceHtml": "Send epost med HTML-formatering",
+    "doNotFillAssignedUserIfNotRequired": "Ikke fyll ut 'tildelt bruker' hvis det ikke er påkrevd",
+    "followEntityOnStreamPost": "Følg enhet automatisk etter posting i strøm.",
+    "followCreatedEntities": "Auto-follow created records",
+    "followCreatedEntityTypeList": "Auto-follow created records of specific entity types",
+    "emailUseExternalClient": "Use an external email client",
+    "textSearchStoringDisabled": "Disable text filter storing",
+    "calendarSlotDuration": "Calendar Slot Duration",
+    "calendarScrollHour": "Calendar Scroll to Hour",
     "smtpServer": "Tjener",
     "smtpAuth": "Autentisering",
     "smtpSecurity": "Sikkerhet",
@@ -16,37 +45,36 @@
     "emailAddress": "Epost",
     "smtpPassword": "Passord",
     "smtpEmailAddress": "Epostadresse",
-    "exportDelimiter": "Skilletegn for eksport",
-    "signature": "Epostsignatur",
-    "dashboardTabList": "Menyliste",
-    "tabList": "Menyliste",
-    "defaultReminders": "Forvalgte påminnelser",
-    "theme": "Stiltema",
-    "useCustomTabList": "Egendefinert menyliste",
-    "receiveAssignmentEmailNotifications": "Epostvarsel når du blir tildelt noe",
-    "receiveMentionEmailNotifications": "Epostvarsel når du nevnes i poster",
-    "receiveStreamEmailNotifications": "Epostvarsel om post- og statusoppdateringer",
-    "dashboardLayout": "Kontrollpanel Utforming",
-    "emailReplyForceHtml": "Send epost med HTML-formatering",
-    "autoFollowEntityTypeList": "Følg automatisk",
-    "emailReplyToAllByDefault": "Epostsvar sendes til alle som forvalg",
-    "doNotFillAssignedUserIfNotRequired": "Ikke fyll ut 'tildelt bruker' hvis det ikke er påkrevd",
-    "followEntityOnStreamPost": "Følg enhet automatisk etter posting i strøm.",
     "tabColorsDisabled": "Deaktiver fane farger"
   },
+  "links": {},
   "options": {
     "weekStart": {
       "0": "Søndag",
       "1": "Mandag"
+    },
+    "pageContentWidth": {
+      "": "Normal",
+      "Wide": "Wide"
     }
   },
   "labels": {
     "Notifications": "Varsler",
     "User Interface": "Brukergrensesnitt",
     "Misc": "Diverse",
-    "Locale": "Språk og nasjonalitet"
+    "Locale": "Språk og nasjonalitet",
+    "Reset Dashboard to Default": "Reset Dashboard to Default"
   },
   "tooltips": {
-    "autoFollowEntityTypeList": "Brukeren vil automatisk følge alle nye oppføringer til de valgte enhetstypene, motta varsler og se informasjonen i strømmen."
+    "addCustomTabs": "If checked, custom tabs will be appended to default tabs. Otherwise, custom tabs will be used instead of default tabs.",
+    "autoFollowEntityTypeList": "Brukeren vil automatisk følge alle nye oppføringer til de valgte enhetstypene, motta varsler og se informasjonen i strømmen.",
+    "doNotFillAssignedUserIfNotRequired": "When create record assigned user won't be filled with own user unless the field is required.",
+    "followCreatedEntities": "When create new records, they will be automatically followed even if assigned to another user.",
+    "followCreatedEntityTypeList": "When create new records of selected entity types, they will be followed automatically even if assigned to another user."
+  },
+  "tabFields": {
+    "label": "Label",
+    "iconClass": "Icon",
+    "color": "Color"
   }
 }

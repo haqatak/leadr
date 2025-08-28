@@ -3,6 +3,7 @@
     "user": "Bruker",
     "action": "Handling",
     "createdAt": "Dato",
+    "userType": "User Type",
     "target": "Mål",
     "targetType": "Måltype",
     "authToken": "Autentisering Nøkkel",
@@ -11,9 +12,9 @@
   },
   "links": {
     "authToken": "Autentisering Nøkkel",
+    "authLogRecord": "Autentisering Log Historie",
     "user": "Bruker",
-    "target": "Mål",
-    "authLogRecord": "Autentisering Log Historie"
+    "target": "Mål"
   },
   "presetFilters": {
     "onlyMy": "Kun Min"
